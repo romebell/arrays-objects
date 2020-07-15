@@ -43,6 +43,18 @@ for (var i = 0; i < 10; i++) {
 
 // print teams
 for (var i = 0; i < teams.length; i++) {
-    var eachTeam = teams[i]; // Rockets, Lakers, Warriors ...
+    var eachTeam = teams[i]; // Rockets, Lakers, Warriors ... [intermediate variable]
     console.log(eachTeam);
+}
+
+// Make an array 
+// Use a for loop to iterate through your array
+// print each element in your array
+
+const cars = ['Tesla', 'Honda', 'Toyota', 'Ford'];
+console.log(cars);
+
+for (let i = 0; i < cars.length; i++) {
+    let eachCar = cars[i]; // Tesla, Honda ...
+    console.log(eachCar);
 }
