@@ -58,3 +58,51 @@ for (let i = 0; i < cars.length; i++) {
     let eachCar = cars[i]; // Tesla, Honda ...
     console.log(eachCar);
 }
+
+// Objects
+// key: value pairs
+
+const rome = {
+    fullName: 'Rome Bell',
+    age: 32,
+    myLocation: 'Los Angeles',
+    placesTraveled: ['Kentucky', 'Ohio', 'New York', 'Washington DC']
+}
+
+console.log(rome);
+
+// myLocation
+console.log(rome.myLocation);
+
+// print New York
+console.log(rome.placesTraveled[2]);
+
+const myReallyCoolPost = {
+    username: '@generalassembly',
+    likes: 1200,
+    comments: ['really cool post', 'nice', 'javascript is cool', 'woah'],
+    caption: 'Day 3 of SEI',
+    picture: 'https://instagram.com/generalassembly/.....',
+    shares: 12
+};
+// console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = 'San Fran';
+console.log(myReallyCoolPost);
+
+// likes, captions, shares, comments, username, picture
+
+// instagram post object
+let sentence = "I'm cool";
+let sentenceTwo = 'I \'m cool too';
+
+const FourthOfJulyPost = {
+    username: '@ga'
+};
+
+FourthOfJulyPost.picture = 'https://instagram.com/.....';
+FourthOfJulyPost['likes'] = 15;
+FourthOfJulyPost.comments = ['ok...'];
+FourthOfJulyPost.caption = 'Writing code on the 4th';
+
+console.log(FourthOfJulyPost);
