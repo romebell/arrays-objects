@@ -35,3 +35,14 @@ while (romeFavorite < letGoToOneHundred) {
     console.log(romeFavorite); // 5, 6, 7
     romeFavorite += 1; // 6, 7, 8
 }
+
+// for loops
+for (var i = 0; i < 10; i++) {
+    console.log(i); // 0, 1, 2...
+}
+
+// print teams
+for (var i = 0; i < teams.length; i++) {
+    var eachTeam = teams[i]; // Rockets, Lakers, Warriors ...
+    console.log(eachTeam);
+}
