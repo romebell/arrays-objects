@@ -27,3 +27,11 @@ while (myOtherNumber < numberTwo) {
     console.log(myOtherNumber); // 10, 11, 12
     myOtherNumber += 1; // 11, 12, 13
 }
+
+var romeFavorite = 5;
+var letGoToOneHundred = 100;
+
+while (romeFavorite < letGoToOneHundred) {
+    console.log(romeFavorite); // 5, 6, 7
+    romeFavorite += 1; // 6, 7, 8
+}
